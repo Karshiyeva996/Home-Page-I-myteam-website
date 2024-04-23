@@ -493,4 +493,53 @@ body {
     cursor: pointer;
 }
 
+/*ABOUT PEGS*/ 
+/*ABOUT COMPANES*/
+.about-companies {
+    padding-top:120px;
+    padding-bottom:120px;
+    position: relative;
+    overflow: hidden;
+} 
+.about-companies::before  {
+    content: url(../img/bg-pattern-about-1-mobile-nav-1.svg);
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+} 
+.about-content {
+    display: flex;
+    justify-content: space-between;
+
+} 
+.about-title {
+    color: var(--White);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+} 
+.about-desc {
+    max-width: 730px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--White);
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+} 
+.about-desc::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: var(--Light-Coral);
+}
+
+
+
+/*ABOUT COMPANES*/
+/*ABOUT PEGS*/
+
 /*FOOTER SECTION*/
