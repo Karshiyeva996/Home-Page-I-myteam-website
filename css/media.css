@@ -131,6 +131,35 @@
     line-height: 32px;
 }
 /*CONTACT SECTION*/
+/*ABOUT PEGS*/
+/*ABOUT COMPANIES*/
+.about-companies {
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.about-content {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    row-gap: 24px;
+} 
+.about-title {
+    text-align: center;
+    line-height: 56px;
+} 
+
+.about-desc {
+    max-width: 457px;
+    width: 100%;
+    font-size: 15px;
+
+} 
+.about-desc::before {
+    display: none;
+}
+/*ABOUT COMPANIES*/
+/*ABOUT PEGS*/
+
 
 /*SITE FOOTER*/
 .site-footer {
@@ -307,6 +336,37 @@
         row-gap: 24px;
     }
      /*CONTACT SECTIOM*/
+     /*ABOUT PEGS*/
+     /*ABOUT COMPANIES*/
+     .about-companies {
+        padding-top: 80px;
+        padding-bottom: 108px;
+    }
+    .about-content {
+         row-gap: 16px;
+    } 
+    .about-title {
+        text-align: center;
+        font-size: 40px;
+        line-height: 40px;
+    } 
+    
+    .about-desc {
+        max-width: 457px;
+        width: 100%;
+        font-size: 15px;
+    
+    } 
+    .about-desc::before {
+        display: none;
+    }
+    .about-companies::before {
+        bottom: -105px;
+    }
+     
+
+     /*ABOUT COMPANIES*/
+     /*ABOUT PEGS*/
 
 
 
